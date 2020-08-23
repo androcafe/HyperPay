@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HyperPay</string>
+    <string name="payment_cancelled">Payment Cancelled</string>
+</resources>
