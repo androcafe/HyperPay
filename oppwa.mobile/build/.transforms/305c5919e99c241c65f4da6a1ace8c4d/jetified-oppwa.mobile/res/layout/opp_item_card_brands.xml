@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/card_brand_logo"
+        android:scaleType="centerInside"
+        android:background="@drawable/opp_selector_card_brand"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="@dimen/card_brand_logo_width"
+        android:layout_height="@dimen/card_brand_logo_height"/>
+
+        <ProgressBar
+            android:id="@+id/loading_panel"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="@dimen/card_brand_logo_width"
+            android:layout_height="@dimen/card_brand_logo_height"
+            />
+    </RelativeLayout>
+
+</FrameLayout>
